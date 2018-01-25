@@ -5,11 +5,15 @@
         <item
             android:id="@+id/profile"
             android:icon="@drawable/ic_person_black_24dp"
-            android:title="Profile" />
+            android:title="Your Profile" />
         <item
             android:id="@+id/family_member"
             android:icon="@drawable/ic_group_black_24dp"
-            android:title="Family Member" />
+            android:title="Family Member List" />
+        <item
+            android:id="@+id/guardian_member"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Guardians" />
     </group>
 
 </menu>

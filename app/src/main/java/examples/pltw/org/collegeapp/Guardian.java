@@ -5,7 +5,14 @@ package examples.pltw.org.collegeapp;
  */
 public class Guardian extends FamilyMember {
     private String occupation;
+    public Guardian() {
+        super();
+    }
 
+    public Guardian (String firstName, String lastName) {
+        super.setFirstName(firstName);
+        super.setLastName(lastName);
+    }
     public String getOccupation() {
         return occupation;
     }

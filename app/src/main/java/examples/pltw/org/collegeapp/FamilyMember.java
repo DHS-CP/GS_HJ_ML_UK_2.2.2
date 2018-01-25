@@ -7,7 +7,7 @@ public abstract class FamilyMember extends ApplicantData {
     private String firstName;
     private String lastName;
 
-    public FamilyMember() {
+    public FamilyMember() {//default boring ness
         firstName = "Ada";
         lastName = "Lovelace";
     }
